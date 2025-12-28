@@ -2,6 +2,9 @@ import os
 import streamlit as st
 from langchain_openai import ChatOpenAI
 from langchain.schema import SystemMessage, HumanMessage
+from dotenv import load_dotenv
+
+load_dotenv()
 
 st.set_page_config(page_title="LLM相談アプリ", page_icon="🤖")
 
